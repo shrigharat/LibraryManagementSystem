@@ -28,7 +28,7 @@ public class AddStudent extends JFrame implements ActionListener {
     public AddStudent() {
         setLayout(null);
         setResizable(false);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
 
         panel = new JPanel();
         panel.setLayout(null);
@@ -88,9 +88,11 @@ public class AddStudent extends JFrame implements ActionListener {
                 } else {
                     JOptionPane.showMessageDialog(this, "Couldn't add student");
                 }
+                statement.close();
             }
             if(e.getSource()== backButton) {
                 clearTextFields();
+                conn.close();
                 dispose();
                 new Home().setVisible(true);
             }

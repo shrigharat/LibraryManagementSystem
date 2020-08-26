@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibraryManagementSystem:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd76d7bd-e1ad-4b24-bcf7-5376c00e66f5" name="Default Changelist" comment="" />
+    <list default="true" id="bd76d7bd-e1ad-4b24-bcf7-5376c00e66f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library.db" beforeDir="false" afterPath="$PROJECT_DIR$/library.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/components/TextFieldClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/components/TextFieldClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AboutUs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AboutUs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AddBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AddStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/AddStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/BookDetails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/BookDetails$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/BookDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/BookDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Conn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Conn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ForgotPassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ForgotPassword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Home.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Home.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/IssueBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/IssueBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Loading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Loading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ReadMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ReadMe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ReturnBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/ReturnBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/SignUpUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/SignUpUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/Statistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/StudentDetails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/StudentDetails$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/StudentDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LibraryManagementSystem/com/company/model/StudentDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/AddBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/AddStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/AddStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/BookDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/BookDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/SignUpUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/SignUpUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/StudentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/StudentDetails.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +53,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gJLilxiXDpD8cx84vZzeDO2LAf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jcalendar-tz-1.3.3-4.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -133,5 +176,23 @@
       <updated>1597827877396</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LibraryManagementSystem$Main.ic" NAME="Main Coverage Results" MODIFIED="1598460314622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -23,7 +23,7 @@ public class Home extends JFrame implements ActionListener {
     public Home() {
         setLayout(null);
         setResizable(false);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
 
         panel = new JPanel();
         panel.setLayout(null);
@@ -68,22 +68,22 @@ public class Home extends JFrame implements ActionListener {
         menuBar.add(helpMenu);
         menuBar.add(exitMenu);
 
-        JLabel addBookLabel = getJLabel("/resources/images/addBook.png", 50, 70);
+        getJLabel("/resources/images/addBook.png", 50, 70);
         addBookButton = getJButton("Add Book", 50, 250);
 
-        JLabel statisticsLabel = getJLabel("/resources/images/statistics.png", 370, 70);
+        getJLabel("/resources/images/statistics.png", 370, 70);
         statisticsButton = getJButton("Statistics", 370, 250);
 
-        JLabel addStudentLabel = getJLabel("/resources/images/addstudent.png", 660, 70);
+        getJLabel("/resources/images/addstudent.png", 660, 70);
         addStudentButton = getJButton("Add Student",660, 250);
 
-        JLabel issueBookLabel = getJLabel("/resources/images/issueBook.png", 50, 300);
+        getJLabel("/resources/images/issueBook.png", 50, 300);
         issueBookButton = getJButton("Issue Book", 50, 480);
 
-        JLabel returnBookLabel = getJLabel("/resources/images/returnBook.png", 370, 300);
+        getJLabel("/resources/images/returnBook.png", 370, 300);
         returnBookButton = getJButton("Return Book",370, 480);
 
-        JLabel aboutUsLabel = getJLabel("/resources/images/aboutus.png", 660, 300);
+        getJLabel("/resources/images/aboutus.png", 660, 300);
         aboutUsButton = getJButton("About Us", 660, 480);
 
     }
@@ -93,36 +93,36 @@ public class Home extends JFrame implements ActionListener {
         String msg = e.getActionCommand();
         if(msg.equals("Logout")) {
             changeStatus();
-            this.setVisible(false);
+            dispose();
             new LoginUser().setVisible(true);
         } else if(msg.equals("Exit App")) {
             System.exit(ABORT);
         } else if(msg.equals("Book Details")) {
-            this.setVisible(false);
+            dispose();
             new BookDetails().setVisible(true);
         } else if(msg.equals("Student Details")) {
-            this.setVisible(false);
+            dispose();
             new StudentDetails().setVisible(true);
         } else if(msg.equals("Read Me")) {
             new ReadMe().setVisible(true);
         } else if(msg.equals("About Us")) {
             new AboutUs().setVisible(true);
         }else if(e.getSource() == addBookButton) {
-            this.setVisible(false);
+            dispose();
             new AddBook().setVisible(true);
         } else if(e.getSource() == issueBookButton) {
-            this.setVisible(false);
+            dispose();
             new IssueBook().setVisible(true);
         } else if(e.getSource() == returnBookButton) {
-            this.setVisible(false);
+            dispose();
             new ReturnBook().setVisible(true);
         } else if(e.getSource() == statisticsButton) {
-            this.setVisible(false);
+            dispose();
             new Statistics().setVisible(true);
         } else if(e.getSource() == aboutUsButton) {
             new AboutUs().setVisible(true);
         } else if(e.getSource() == addStudentButton) {
-            this.setVisible(false);
+            dispose();
             new AddStudent().setVisible(true);
         }
     }

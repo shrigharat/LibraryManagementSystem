@@ -23,7 +23,7 @@ public class LoginUser extends JFrame implements ActionListener {
         //Setting layout to null as we will define the coordinates
         this.setLayout(null);
         this.setBackground(Color.white); //set background
-        this.setBounds(100,100,1000,600); //set co-ordinates and height, width
+        this.setBounds(200,300,1000,600); //set co-ordinates and height, width
         this.setResizable(false);
 
         panel = new JPanel(); //assign the panel
@@ -120,13 +120,12 @@ public class LoginUser extends JFrame implements ActionListener {
             }
         }
         if (e.getSource() == b2) {
-            setVisible(false);
+            dispose();
             new SignUpUser().setVisible(true);
         }
         if (e.getSource() == b3) {
-            setVisible(false);
-            ForgotPassword forgot = new ForgotPassword();
-            forgot.setVisible(true);
+            dispose();
+            new ForgotPassword().setVisible(true);
         }
     }
 

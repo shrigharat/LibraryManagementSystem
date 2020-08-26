@@ -25,7 +25,7 @@ public class ForgotPassword extends JFrame implements ActionListener {
 
     public ForgotPassword() {
         setLayout(null);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
         setResizable(false);
 
         panel = new JPanel();
@@ -141,9 +141,11 @@ public class ForgotPassword extends JFrame implements ActionListener {
                 } else {
                     JOptionPane.showMessageDialog(this, "Couldn't find user");
                 }
+                statement.close();
             }
             if(e.getSource() == backButton) {
-                this.setVisible(false);
+                conn.close();
+                dispose();
                 new LoginUser().setVisible(true);
             }
         } catch (SQLException exception) {

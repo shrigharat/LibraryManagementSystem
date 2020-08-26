@@ -38,7 +38,7 @@ public class BookDetails extends JFrame implements ActionListener, DocumentListe
     public BookDetails() {
         setLayout(new BorderLayout());
         setResizable(false);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
 
         panelLeft = new JPanel();
         panelLeft.setLayout(null);

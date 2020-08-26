@@ -24,7 +24,7 @@ public class AddBook extends JFrame implements ActionListener {
     public AddBook() {
         setLayout(null);
         setResizable(false);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
 
         panel = new JPanel();
         panel.setLayout(null);
@@ -73,7 +73,7 @@ public class AddBook extends JFrame implements ActionListener {
             if(e.getSource() == addBookButton) {
                 String sql = "INSERT INTO books(book_id, name, isbn, publisher, edition, price, pages) VALUES (?,?,?,?,?,?,?)";
                 PreparedStatement statement = conn.conn.prepareStatement(sql);
-                statement.setString(1, bookIdTf.getText().strip());
+                statement.setString(1, bookIdTf.getText());
                 statement.setString(2, nameTf.getText());
                 statement.setString(3, isbnTf.getText());
                 statement.setString(4, publisherTf.getText());
@@ -89,9 +89,11 @@ public class AddBook extends JFrame implements ActionListener {
                 } else {
                     JOptionPane.showMessageDialog(this, "Couldn't add book");
                 }
+                statement.close();
             }
             if(e.getSource() == backButton) {
                 clearTextFields();
+                conn.close();
                 dispose();
                 new Home().setVisible(true);
             }

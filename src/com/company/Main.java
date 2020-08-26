@@ -32,7 +32,7 @@ public class Main{
             statement.close();
             conn.close();
         } catch (SQLException exception) {
-            System.out.println("Couldn't retrieve status value");
+            System.out.println("Couldn't retrieve status value  : " + exception.getMessage());
         }
 
     }

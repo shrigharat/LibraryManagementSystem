@@ -27,7 +27,7 @@ public class SignUpUser extends JFrame implements ActionListener {
 
     public SignUpUser() {
         setLayout(null);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
         setResizable(false);
 
         panel = new JPanel();
@@ -165,7 +165,7 @@ public class SignUpUser extends JFrame implements ActionListener {
                     int affectedRows = statementInsert.executeUpdate();
                     if(affectedRows > 0) {
                         JOptionPane.showMessageDialog(this, "Sign up successful !");
-                        this.setVisible(false);
+                        dispose();
                         new LoginUser().setVisible(true);
                     } else {
                         JOptionPane.showMessageDialog(this, "Sign up failed !");
@@ -174,14 +174,16 @@ public class SignUpUser extends JFrame implements ActionListener {
                         passwordTextField.setText("");
                         answerTextField.setText("");
                     }
+                    statementInsert.close();
                 }
+                statementQuery.close();
             }
             if(e.getSource() == backButton) {
                 //do something
-                this.setVisible(false);
+                conn.close();
+                dispose();
                 new LoginUser().setVisible(true);
             }
-
         } catch (SQLException exception) {
             System.out.println("Couldn't sign up : " + exception.getMessage());
             JOptionPane.showMessageDialog(this, "Sign up failed !");

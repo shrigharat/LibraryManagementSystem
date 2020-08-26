@@ -37,7 +37,7 @@ public class StudentDetails extends JFrame implements ActionListener, DocumentLi
     public StudentDetails() {
         setLayout(new BorderLayout());
         setResizable(false);
-        setBounds(200, 100, 1000, 600);
+        setBounds(200, 30, 1000, 600);
 
         panelLeft = new JPanel();
         panelLeft.setLayout(null);
